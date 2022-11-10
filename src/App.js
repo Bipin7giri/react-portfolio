@@ -184,19 +184,19 @@ function App() {
                 element={<AboutMe />}
               ></Route>
               <Route
-                path='/react-portfolio/resume'
+                path='/react-portfolio/resume/'
                 element={<Resume />}
               ></Route>
               <Route
-                path='/react-portfolio/project'
+                path='/react-portfolio/project/'
                 element={<Project />}
               ></Route>
               <Route
-                path='/react-portfolio/stack'
+                path='/react-portfolio/stack/'
                 element={<Stack />}
               ></Route>
               <Route
-                path='/react-portfolio/contact'
+                path='/react-portfolio/contact/'
                 element={<Contact />}
               ></Route>
             </Routes>
