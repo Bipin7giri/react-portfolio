@@ -118,7 +118,7 @@ function App() {
                     <li>
                       <Link
                         className='menu-item lg:p-2 rounded-md  active:bg-red-400  lg:hover:bg-red-400'
-                        to={'/'}
+                        to={'/react-portfolio/'}
                       >
                         <span className='text-xl mb-1'>
                           <i className='fa-regular fa-user'></i>
@@ -180,7 +180,7 @@ function App() {
 
             <Routes>
               <Route
-                path='/'
+                path='/react-portfolio/'
                 element={<AboutMe />}
               ></Route>
               <Route
