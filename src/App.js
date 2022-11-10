@@ -180,23 +180,23 @@ function App() {
 
             <Routes>
               <Route
-                path='/react-portfolio/'
+                path='/react-portfolio'
                 element={<AboutMe />}
               ></Route>
               <Route
-                path='/resume'
+                path='/react-portfolio/resume'
                 element={<Resume />}
               ></Route>
               <Route
-                path='/project'
+                path='/react-portfolio/project'
                 element={<Project />}
               ></Route>
               <Route
-                path='/stack'
+                path='/react-portfolio/stack'
                 element={<Stack />}
               ></Route>
               <Route
-                path='/contact'
+                path='/react-portfolio/contact'
                 element={<Contact />}
               ></Route>
             </Routes>
