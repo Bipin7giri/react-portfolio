@@ -129,7 +129,7 @@ function App() {
                     <li>
                       {' '}
                       <Link
-                        to='/react-portfolio/resume'
+                        to='/react-portfolio/resume/'
                         className='menu-item lg:p-2 rounded-md lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -141,7 +141,7 @@ function App() {
                     <li>
                       {' '}
                       <Link
-                        to='/react-portfolio/project'
+                        to='/react-portfolio/project/'
                         className='menu-item lg:p-2 rounded-md   lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -152,7 +152,7 @@ function App() {
                     </li>
                     <li>
                       <Link
-                        to='/react-portfolio/stack'
+                        to='/react-portfolio/stack/'
                         className='menu-item lg:p-2 rounded-md  lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -164,7 +164,7 @@ function App() {
                     </li>
                     <li>
                       <Link
-                        to='/react-portfolio/contact'
+                        to='/react-portfolio/contact/'
                         className='menu-item lg:p-2 rounded-md  lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
