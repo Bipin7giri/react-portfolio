@@ -118,7 +118,7 @@ function App() {
                     <li>
                       <Link
                         className='menu-item lg:p-2 rounded-md  active:bg-red-400  lg:hover:bg-red-400'
-                        to={'/react-portfolio/'}
+                        to={'/'}
                       >
                         <span className='text-xl mb-1'>
                           <i className='fa-regular fa-user'></i>
@@ -129,7 +129,7 @@ function App() {
                     <li>
                       {' '}
                       <Link
-                        to='/react-portfolio/resume/'
+                        to='/resume'
                         className='menu-item lg:p-2 rounded-md lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -141,7 +141,7 @@ function App() {
                     <li>
                       {' '}
                       <Link
-                        to='/react-portfolio/project/'
+                        to='/project'
                         className='menu-item lg:p-2 rounded-md   lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -152,7 +152,7 @@ function App() {
                     </li>
                     <li>
                       <Link
-                        to='/react-portfolio/stack/'
+                        to='/stack'
                         className='menu-item lg:p-2 rounded-md  lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -164,7 +164,7 @@ function App() {
                     </li>
                     <li>
                       <Link
-                        to='/react-portfolio/contact/'
+                        to='/contact'
                         className='menu-item lg:p-2 rounded-md  lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -180,23 +180,23 @@ function App() {
 
             <Routes>
               <Route
-                path='/react-portfolio'
+                path='/'
                 element={<AboutMe />}
               ></Route>
               <Route
-                path='/react-portfolio/resume'
+                path='/resume'
                 element={<Resume />}
               ></Route>
               <Route
-                path='/react-portfolio/project'
+                path='/project'
                 element={<Project />}
               ></Route>
               <Route
-                path='/react-portfolio/stack'
+                path='/stack'
                 element={<Stack />}
               ></Route>
               <Route
-                path='/react-portfolio/contact'
+                path='/contact'
                 element={<Contact />}
               ></Route>
             </Routes>
