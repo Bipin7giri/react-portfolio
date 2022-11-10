@@ -188,15 +188,15 @@ function App() {
                 element={<Resume />}
               ></Route>
               <Route
-                path='/react-portfolio/project/'
+                path='/react-portfolio/react-portfolio/project/'
                 element={<Project />}
               ></Route>
               <Route
-                path='/react-portfolio/stack/'
+                path='/react-portfolio/react-portfolio/stack/'
                 element={<Stack />}
               ></Route>
               <Route
-                path='/react-portfolio/contact/'
+                path='/react-portfolio/react-portfolio/contact/'
                 element={<Contact />}
               ></Route>
             </Routes>
