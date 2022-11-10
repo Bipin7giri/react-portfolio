@@ -129,7 +129,7 @@ function App() {
                     <li>
                       {' '}
                       <Link
-                        to='/resume'
+                        to='/react-portfolio/resume'
                         className='menu-item lg:p-2 rounded-md lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -141,7 +141,7 @@ function App() {
                     <li>
                       {' '}
                       <Link
-                        to='/project'
+                        to='/react-portfolio/project'
                         className='menu-item lg:p-2 rounded-md   lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -152,7 +152,7 @@ function App() {
                     </li>
                     <li>
                       <Link
-                        to='/stack'
+                        to='/react-portfolio/stack'
                         className='menu-item lg:p-2 rounded-md  lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -164,7 +164,7 @@ function App() {
                     </li>
                     <li>
                       <Link
-                        to='/contact'
+                        to='/react-portfolio/contact'
                         className='menu-item lg:p-2 rounded-md  lg:hover:bg-red-400'
                       >
                         <span className='text-xl mb-1'>
@@ -184,19 +184,19 @@ function App() {
                 element={<AboutMe />}
               ></Route>
               <Route
-                path='/react-portfolio/resume/'
+                path='/react-portfolio/resume'
                 element={<Resume />}
               ></Route>
               <Route
-                path='/react-portfolio/react-portfolio/project/'
+                path='/react-portfolio/project'
                 element={<Project />}
               ></Route>
               <Route
-                path='/react-portfolio/react-portfolio/stack/'
+                path='/react-portfolio/stack'
                 element={<Stack />}
               ></Route>
               <Route
-                path='/react-portfolio/react-portfolio/contact/'
+                path='/react-portfolio/contact'
                 element={<Contact />}
               ></Route>
             </Routes>
